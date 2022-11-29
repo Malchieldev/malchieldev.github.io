@@ -1,0 +1,12 @@
+.contactsList {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 2rem;
+}
+
+@media (max-width: 1024px) {
+  .contactsList {
+    margin: 1rem;
+  }
+}

@@ -1,0 +1,33 @@
+.contentWrapper {
+  display: inline-block;
+  position: relative;
+  border-radius: 1rem;
+  border: 0.2rem solid rgb(82 82 91);
+  background-color: transparent;
+  width: 70%;
+  padding: 2rem 1rem 1rem 1rem;
+}
+
+.contentTitle {
+  position: absolute;
+  padding: 0 0.3rem;
+  top: -1.5rem;
+  left: 2rem;
+  border-radius: 0.5rem;
+  background-color: black;
+  font-size: 3rem;
+  scroll-margin-top: 25vh;
+  z-index: 1;
+}
+
+@media (max-width: 1024px) {
+  .contentWrapper {
+    width: 100%;
+  }
+  .contentTitle {
+    left: 0;
+    right: 0;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}

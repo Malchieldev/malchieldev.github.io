@@ -1,0 +1,38 @@
+.softskill {
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.8);
+  animation: glow 100ms ease-in-out infinite alternate;
+  float: right;
+}
+.softskill.blinking:after {
+  content: "|";
+  color: rgba(255, 255, 255, 0.449);
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.92),
+      0 0 0.6rem rgba(255, 255, 255, 0.34), 0 0 0.9rem rgba(255, 255, 255, 0.52),
+      0 0 1.2rem rgba(255, 255, 255, 0.92), 0 0 1.5rem rgba(255, 255, 255, 0.78),
+      0 0 1.8rem rgba(255, 255, 255, 0.92);
+  }
+  to {
+    text-shadow: 0 0 0.3rem rgba(255, 255, 255, 0.98),
+      0 0 0.6rem rgba(255, 255, 255, 0.42), 0 0 0.9rem rgba(255, 255, 255, 0.58),
+      0 0 1.2rem rgba(255, 255, 255, 0.84), 0 0 1.5rem rgba(255, 255, 255, 0.88),
+      0 0 1.8rem rgba(255, 255, 255, 1);
+  }
+}
+
+@media (max-width: 1024px) {
+  .softskill {
+    font-size: 1.5rem;
+  }
+}

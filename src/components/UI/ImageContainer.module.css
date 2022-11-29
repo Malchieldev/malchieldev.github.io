@@ -1,0 +1,18 @@
+.image {
+  background-size: 100%;
+  margin: 0 auto;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 100ms;
+}
+.image:hover{
+  transform: scale(1.2);
+}
+
+@media (max-width: 1024px) {
+  .image{
+    margin: 1.5rem 0;
+  }
+}

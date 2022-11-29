@@ -1,0 +1,11 @@
+.main {
+  margin: 0 auto;
+  width: 75%;
+  color: white;
+  text-align: center;
+}
+@media (max-width: 1024px) {
+  .main {
+    width: 90%;
+  }
+}
