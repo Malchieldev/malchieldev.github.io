@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbusiness_card_site_mine=self.webpackChunkbusiness_card_site_mine||[]).push([[16],{16:function(i,_,l){l.r(_),_.default={skill__block:"Skill_skill__block__WNo6N",skill__description:"Skill_skill__description__OkzfZ","skill__description-animate":"Skill_skill__description-animate__bWp8v"}}}]);
+//# sourceMappingURL=16.82d6f68f.chunk.js.map
