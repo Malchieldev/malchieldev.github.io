@@ -43,7 +43,7 @@
 
 @media (max-width: 1024px) {
   .menu__shown {
-    opacity: 1 !important;
+    transform: translateX(0)!important;
   }
   .mobile__activeSection {
     border: 0 !important;
@@ -61,12 +61,13 @@
 
   .header ul {
     position: fixed;
-    opacity: 0;
     display: grid;
     justify-items: end;
     right: 0;
+    top:10vh;
     margin: 0;
     transition: 0.8s all;
+    transform: translateX(100%);
   }
 
   .header button {
