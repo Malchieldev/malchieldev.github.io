@@ -32,7 +32,8 @@ const Experience = (props) => {
           </button>
         ))}
       </ul>
-      <ContentDescription key={currentExperience.jobTitle}
+      <ContentDescription
+        key={currentExperience.jobTitle}
         header={`${currentExperience.jobTitle} at ${currentExperience.company}`}
         data={currentExperience.descriptionData}
       />

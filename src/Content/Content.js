@@ -69,7 +69,7 @@ const skills = [
 const experience = [
   {
     id: "experience-01",
-    company: "RT-Business development, LLC",
+    company: "RT-Business development",
     jobTitle: "Senior software engineer",
     dates: "2018-2022",
     descriptionData: [
@@ -101,7 +101,7 @@ const experience = [
   },
   {
     id: "experience-02",
-    company: "RT-Inform, LLC",
+    company: "RT-Inform",
     jobTitle: "Development Team Lead",
     dates: "2016-2018",
     descriptionData: [
@@ -131,7 +131,7 @@ const experience = [
   },
   {
     id: "experience-03",
-    company: "Transstroy, LLC",
+    company: "Transstroy",
     jobTitle: "Software Engineer",
     dates: "2014-2016",
     descriptionData: [

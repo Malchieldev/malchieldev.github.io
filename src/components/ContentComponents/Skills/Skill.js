@@ -23,7 +23,6 @@ const Skill = (props) => {
         imageStyle={{
           maxWidth: "4rem",
           maxHeight: "4rem",
-          cursor: "-webkit-grab",
         }}
       />
       {showSkill && (
