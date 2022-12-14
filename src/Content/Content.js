@@ -280,7 +280,7 @@ const CONTENT = [
   },
   {
     id: "6",
-    title: "Spoken languages",
+    title: "Languages",
     data: languages,
     componentName: "Languages",
     imagePath: "/infoblocks/languages.png",
