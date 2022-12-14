@@ -2,7 +2,7 @@ import ContentDescription from "../../UI/ContentDescription";
 
 const Education = (props) => {
   return (
-    <ul>
+    <>
       {props.data.map((el) => (
         <ContentDescription
           key={el.id}
@@ -11,7 +11,7 @@ const Education = (props) => {
           url={el.url}
         />
       ))}
-    </ul>
+    </>
   );
 };
 

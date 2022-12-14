@@ -19,8 +19,6 @@ const useTypedText = (texts) => {
   useEffect(() => {
     switch (typingPhase) {
       case TypingPhases.Typing: {
-        if (typingPhase === TypingPhases.Pause) return;
-
         const nextTypedText = texts[currentIndex].slice(
           0,
           typedText.length + 1
@@ -38,8 +36,6 @@ const useTypedText = (texts) => {
         return () => clearTimeout(timeout);
       }
       case TypingPhases.Deleting: {
-        if (typingPhase === TypingPhases.Pause) return;
-
         if (!typedText) {
           const nextIndex = currentIndex + 1;
           setCurrentIndex(texts[nextIndex] ? nextIndex : 0);

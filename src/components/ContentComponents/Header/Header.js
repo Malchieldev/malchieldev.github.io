@@ -26,7 +26,7 @@ const Header = (props) => {
         <button className={styled.mobile__button} onClick={mobileButtonHandler}>
           {'///'}
         </button>
-        <ul className={mobileMenuIsShown ? styled.menu__shown : ""}>
+        <div className={mobileMenuIsShown ? styled.menu__shown : ""}>
           {props.titles.map((el, i) => {
             return (
               <button
@@ -42,15 +42,14 @@ const Header = (props) => {
               </button>
             );
           })}
-          <button>
             <a
               href="CV/Software Engineer Zolotuhin Kirill CV.pdf"
               target="_blank"
             >
               CV
             </a>
-          </button>
-        </ul>
+
+        </div>
       </nav>
     </header>
   );

@@ -21,28 +21,26 @@ function App() {
   );
 
   return (
-    <React.Fragment>
+    <>
       <Header
         titles={titles}
         activeSection={activeSection}
         scrollToSection={scrollToSection}
       />
       <Main>
-        <ul>
-          {CONTENT.map((el, i) => {
-            return (
-              <ContentBlock
-                labelRef={lineRefs.current[i]}
-                activeSection={activeSection}
-                setActiveSection={setActiveSection}
-                key={el.id}
-                {...el}
-              />
-            );
-          })}
-        </ul>
+        {CONTENT.map((el, i) => {
+          return (
+            <ContentBlock
+              labelRef={lineRefs.current[i]}
+              activeSection={activeSection}
+              setActiveSection={setActiveSection}
+              key={el.id}
+              {...el}
+            />
+          );
+        })}
       </Main>
-    </React.Fragment>
+    </>
   );
 }
 

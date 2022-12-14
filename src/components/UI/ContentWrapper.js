@@ -22,9 +22,9 @@ const ContentWrapper = forwardRef(({ setActiveSection, ...props }, ref) => {
 
   return (
     <div className={styled.contentWrapper}>
-      <label ref={ref} className={styled.contentTitle}>
+      <h2 ref={ref} className={styled.contentTitle}>
         {props.title}
-      </label>
+      </h2>
       {props.children}
     </div>
   );

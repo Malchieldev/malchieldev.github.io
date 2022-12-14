@@ -20,6 +20,7 @@ const AboutMe = (props) => {
             ? styled.softskill
             : `${styled.softskill} ${styled.blinking}`
         }
+        aria-hidden="true"
       >
         {typedSoftSkill}
       </div>

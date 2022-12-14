@@ -1,4 +1,4 @@
-.exerience__dates {
+.experience__dates {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -16,13 +16,13 @@
   color: rgb(0 0 0);
   background-color: white;
 }
-.exerience__date__active {
+.experience__date__active {
   border: 0.15rem solid rgb(82 82 91);
   border-bottom: 0;
   z-index: 1;
 }
 
-.exerience__dates:before {
+.experience__dates:before {
   content: "";
   border-top: 0.15rem solid rgb(82 82 91);
   width: 100%;
@@ -31,11 +31,11 @@
 }
 
 @media (max-width: 1024px) {
-  .exerience__dates {
+  .experience__dates {
     justify-content: space-around;
     margin-bottom: 1rem;
   }
-  .exerience__dates:before {
+  .experience__dates:before {
     display: none;
   }
   .experience__date {
@@ -44,7 +44,7 @@
     margin: 0.3rem;
     font-size: 1.2rem;
   }
-  .exerience__date__active {
+  .experience__date__active {
     color: rgba(0,0,0);
     background-color: rgba(255,255,255,0.85);
   }

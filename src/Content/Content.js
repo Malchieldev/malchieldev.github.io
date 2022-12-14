@@ -10,15 +10,14 @@ const aboutMe = {
       {
         id: "aboutMe-01-briefNote-02",
         description:
-          "Currently, I'm focused on creating apps as a FrontEnd dev, mainly using React as a FrameWork",
+          "Currently, I'm focused on creating apps as a FrontEnd dev, mainly using React as a Framework",
       },
       {
         id: "aboutMe-01-briefNote-03",
-        description: "I would be happy if you contacted me",
+        description: "All enquiries are welcome",
       },
     ],
     softSkills: [
-      "Quality over speed",
       "Communicative",
       "Organized",
       "Open to criticism",
@@ -62,7 +61,7 @@ const skills = [
     id: "skills-06",
     name: "GitHub",
     imagePath: "/skills/GitHub.png",
-    progress: "30%",
+    progress: "70%",
   },
 ]; //progress should be 0-100%
 
@@ -86,7 +85,7 @@ const experience = [
       {
         id: "experience-01-description-03",
         description:
-          "Designed and implemented APIs which were consumed internally and externally",
+          "Designed and implemented APIs for both in-house and external use",
       },
       {
         id: "experience-01-description-04",
@@ -125,7 +124,7 @@ const experience = [
       {
         id: "experience-02-description-05",
         description:
-          "Created tasks for developers and control of implementation",
+          "Created tasks for developers and oversaw their implementation",
       },
     ],
   },
@@ -138,7 +137,7 @@ const experience = [
       {
         id: "experience-03-description-01",
         description:
-          "Participated in the development of in-house corporate ERP solution",
+          "Participated in the development of an in-house ERP solution",
       },
       {
         id: "experience-03-description-02",
@@ -281,7 +280,7 @@ const CONTENT = [
   },
   {
     id: "6",
-    title: "Languages",
+    title: "Spoken languages",
     data: languages,
     componentName: "Languages",
     imagePath: "/infoblocks/languages.png",

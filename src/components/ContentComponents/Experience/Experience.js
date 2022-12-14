@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import { useState } from "react";
 
 import ContentDescription from "../../UI/ContentDescription";
 
@@ -15,8 +15,8 @@ const Experience = (props) => {
     setCurrentExperience({ ...foundExperience[0] });
   };
   return (
-    <Fragment>
-      <ul className={styled.exerience__dates}>
+    <>
+      <div className={styled.experience__dates}>
         {props.data.map((el) => (
           <button
             value={el.dates}
@@ -24,20 +24,20 @@ const Experience = (props) => {
             key={el.id}
             className={`${styled.experience__date} ${
               el.dates === currentExperience.dates
-                ? styled.exerience__date__active
+                ? styled.experience__date__active
                 : null
             }`}
           >
             {el.dates}
           </button>
         ))}
-      </ul>
+      </div>
       <ContentDescription
         key={currentExperience.jobTitle}
         header={`${currentExperience.jobTitle} at ${currentExperience.company}`}
         data={currentExperience.descriptionData}
       />
-    </Fragment>
+    </>
   );
 };
 
