@@ -1,5 +1,5 @@
 const aboutMe = {
-  header: "I'm Kirill, FrontEnd dev.",
+  header: "I'm Kirill, Full-Stack Developer",
   aboutMeData: {
     briefNote: [
       {
@@ -10,7 +10,7 @@ const aboutMe = {
       {
         id: "aboutMe-01-briefNote-02",
         description:
-          "Currently, I'm focused on creating apps as a FrontEnd dev, mainly using React as a Framework",
+          "Currently, I'm focused on creating apps as a Full-Stack Developer, mainly using React as a Framework",
       },
       {
         id: "aboutMe-01-briefNote-03",
@@ -203,9 +203,9 @@ const education = [
 const languages = {
   header: "Besides programming languages, I can speak:",
   languagesData: [
-    { id: "languages-01", description: "Russian (Native)" },
-    { id: "languages-02", description: "English (B2)" },
-    { id: "languages-03", description: "Hebrew (שלום ,כן ,לא ,תודה)" },
+    { id: "languages-01", description: "English (Fluent)" },
+    { id: "languages-02", description: "Russian (Native)" },
+    { id: "languages-03", description: "Hebrew (beginner)" },
   ],
 };
 
