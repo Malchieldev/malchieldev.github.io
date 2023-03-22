@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkbusiness_card_site_mine=self.webpackChunkbusiness_card_site_mine||[]).push([[125],{125:function(s,i,e){e.r(i),i.default={softskill:"AboutMe_softskill__pALc1",blinking:"AboutMe_blinking__m1d2q",blink:"AboutMe_blink__8omDy"}}}]);
-//# sourceMappingURL=125.1a416251.chunk.js.map

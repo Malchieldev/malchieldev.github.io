@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkbusiness_card_site_mine=self.webpackChunkbusiness_card_site_mine||[]).push([[893],{893:function(s,e,i){i.r(e),e.default={skills:"Skills_skills__ZksTm"}}}]);
+//# sourceMappingURL=893.a3c8b965.chunk.js.map

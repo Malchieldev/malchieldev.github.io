@@ -1,2 +1,0 @@
-"use strict";(self.webpackChunkbusiness_card_site_mine=self.webpackChunkbusiness_card_site_mine||[]).push([[461],{461:function(s,t,e){e.r(t),t.default={contactsList:"Contacts_contactsList__b25Cg"}}}]);
-//# sourceMappingURL=461.af46f4de.chunk.js.map
