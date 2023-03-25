@@ -37,7 +37,7 @@ const skills = [
     id: "skills-02",
     name: "NodeJS",
     imagePath: "/skills/NodeJS.svg",
-    progress: "20%",
+    progress: "80%",
   },
   {
     id: "skills-03",
