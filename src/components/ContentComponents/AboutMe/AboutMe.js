@@ -1,29 +1,15 @@
-import useTypedText, { TypingPhases } from "../../../hooks/useTypedText";
 import ContentDescription from "../../UI/ContentDescription";
 
-import styled from "./AboutMe.module.css";
+import TypexText from "./TypedText";
 
 const AboutMe = (props) => {
-  const { typedText: typedSoftSkill, typingPhase } = useTypedText(
-    props.data.aboutMeData.softSkills
-  );
-
   return (
-    <div className={styled.aboutMe}>
+    <div>
       <ContentDescription
         header={props.data.header}
         data={props.data.aboutMeData.briefNote}
       />
-      <div
-        className={
-          typingPhase === TypingPhases.Deleting
-            ? styled.softskill
-            : `${styled.softskill} ${styled.blinking}`
-        }
-        aria-hidden="true"
-      >
-        {typedSoftSkill}
-      </div>
+      <TypexText softSkills={props.data.aboutMeData.softSkills} />
     </div>
   );
 };

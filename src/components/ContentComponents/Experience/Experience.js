@@ -33,7 +33,7 @@ const Experience = (props) => {
         ))}
       </div>
       <ContentDescription
-        key={currentExperience.jobTitle}
+        key={currentExperience.id}
         header={`${currentExperience.jobTitle} at ${currentExperience.company}`}
         data={currentExperience.descriptionData}
       />
