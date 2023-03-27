@@ -69,7 +69,7 @@ const experience = [
   {
     id: "experience-01",
     company: "RT-Business development",
-    jobTitle: "Senior software engineer",
+    jobTitle: "Software engineer",
     dates: "2018-2022",
     descriptionData: [
       {
@@ -101,7 +101,7 @@ const experience = [
   {
     id: "experience-02",
     company: "RT-Inform",
-    jobTitle: "Development Team Lead",
+    jobTitle: "Software engineer",
     dates: "2016-2018",
     descriptionData: [
       {
@@ -116,15 +116,6 @@ const experience = [
         id: "experience-02-description-03",
         description:
           "Implemented project of step-by-step update to modern solution for entire ERP system",
-      },
-      {
-        id: "experience-02-description-04",
-        description: "Managed and mentored a team of 4+ developers",
-      },
-      {
-        id: "experience-02-description-05",
-        description:
-          "Created tasks for developers and oversaw their implementation",
       },
     ],
   },
@@ -180,8 +171,7 @@ const education = [
     descriptionData: [
       {
         id: "education-01-description-01",
-        description:
-          "M.Sc Computer and Information Systems Security",
+        description: "M.Sc Computer and Information Systems Security",
       },
     ],
     url: "https://en.wikipedia.org/wiki/Bauman_Moscow_State_Technical_University",
