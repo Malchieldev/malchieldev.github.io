@@ -238,7 +238,7 @@ const CONTENT = [
     title: "About Me",
     data: aboutMe,
     componentName: "AboutMe",
-    imagePath: "/infoblocks/photo-removebg.png",
+    imagePath: "/infoblocks/photo.jpg",
   },
   {
     id: "2",

@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React, { Suspense, useMemo } from "react";
 
 import LoadingSpinner from "./LoadingSpinner";
 import ImageContainer from "./ImageContainer";
@@ -7,9 +7,17 @@ import ContentWrapper from "./ContentWrapper";
 import styled from "./ContentBlock.module.css";
 
 const ContentBlock = (props) => {
-  const Component = React.lazy(() =>
-    import(`../ContentComponents/${props.componentName}/${props.componentName}`)
+  const { componentName } = props;
+
+  const Component = useMemo(
+    () =>
+      React.lazy(() =>
+        import(`../ContentComponents/${componentName}/${componentName}`)
+      ),
+    [componentName]
   ); //dynamic import
+
+  const isAboutMe = props.title === "About Me";
 
   return (
     <section
@@ -23,6 +31,7 @@ const ContentBlock = (props) => {
           imageStyle={{
             maxWidth: "10rem",
             maxHeight: "10rem",
+            borderRadius: isAboutMe ? "50%" : "initial",
           }}
         />
         <ContentWrapper
