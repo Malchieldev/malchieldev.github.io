@@ -1,5 +1,5 @@
 const aboutMe = {
-  header: "I'm Kirill, Full-Stack Developer",
+  header: "I'm Kirill, Frontend Developer",
   aboutMeData: {
     briefNote: [
       {
@@ -10,7 +10,7 @@ const aboutMe = {
       {
         id: "aboutMe-01-briefNote-02",
         description:
-          "Currently, I'm focused on creating apps as a Full-Stack Developer, mainly using React as a Framework",
+          "Currently, I'm focused on creating apps as a Frontend Developer, mainly using React as a Framework",
       },
       {
         id: "aboutMe-01-briefNote-03",

@@ -43,7 +43,7 @@ const Header = (props) => {
             );
           })}
             <a
-              href="CV/Fullstack developer Zolotuhin Kirill CV.pdf"
+              href="CV/Frontend Developer Zolotuhin Kirill CV.pdf"
               target="_blank"
             >
               CV
